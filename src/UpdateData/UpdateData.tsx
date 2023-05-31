@@ -12,12 +12,12 @@ const UpdateData = () => {
 
  const userArrr:userType[] = [{ name: "test1", age: 25, city: "Nagpur" }];
 
- const [userArrr , setUserArrr] = useState<userType[]>(userArrr);
+ const [userArrr , setUserArrr] = useState<userType[]>(userArrr)
 
   
 
   const saveUserData = (): void => {
-const newUserArr: userType[] = [...userArrr];
+const newUserArr: userType[] = [...userArrr{name,age,city}];
 setUserArrr(newUserArr)
   };
 
